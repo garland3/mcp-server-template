@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Type checkers / linters
+.mypy_cache/
+.ruff_cache/
+
+# Credentials & secrets — keep these OUT of the repo
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# Large / generated data files
+data/
+*.csv
+*.parquet
+*.sqlite
+*.db
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "my-module": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "/absolute/path/to/this/repo",
+        "my-module"
+      ]
+    }
+  }
+}
