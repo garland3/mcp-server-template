@@ -20,8 +20,8 @@ from fastmcp import FastMCP
 
 from my_module import core
 
-# Path to the About.md file at the repository root.
-ABOUT_PATH = Path(__file__).resolve().parents[2] / "About.md"
+# Path to the About.md file shipped alongside this module.
+ABOUT_PATH = Path(__file__).resolve().parent / "About.md"
 
 mcp = FastMCP("my-module")
 

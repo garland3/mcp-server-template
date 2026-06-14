@@ -70,12 +70,12 @@ root
 ├── pyproject.toml        # dependencies + install (Python >=3.11)
 ├── mcp.json              # example connection config
 ├── README.md             # this file
-├── About.md              # text served as the `about` MCP prompt
 ├── .gitignore            # keeps credentials/large data out of the repo
 ├── src/
 │   └── my_module/
 │       ├── main.py       # MCP server wiring (FastMCP)
-│       └── core.py       # the actual computation
+│       ├── core.py       # the actual computation
+│       └── About.md      # text served as the `about` MCP prompt
 └── tests/
     └── test_core.py      # at least one test that runs
 ```
